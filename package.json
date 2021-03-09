@@ -1,11 +1,11 @@
 {
-  "name": "vercel-sapper",
+  "name": "@whakati/vercel-sapper",
   "version": "0.44.0",
   "license": "MIT",
   "description": "Vercel builder for Sapper with SSR enabled",
   "main": "index.js",
   "bin": {
-    "vercel-sapper": "./bin.js"
+    "vercel-sapper": "bin.js"
   },
   "files": [
     "bin.js",
@@ -17,7 +17,7 @@
     "fix": "prettier --write ."
   },
   "dependencies": {
-    "@vercel/node-bridge": "^1.3.0",
+    "@vercel/node-bridge": "^1.3.3",
     "fs-extra": "^8.1.0"
   },
   "repository": "https://github.com/thgh/vercel-sapper",
