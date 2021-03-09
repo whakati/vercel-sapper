@@ -34,6 +34,7 @@ exports.build = async ({
   const config = getConfig(rawConfig)
   const nodeVersion = await getNodeVersion(entrypointDir, null, config)
   const spawnOpts = getSpawnOptions(meta, nodeVersion)
+  console.log('Node version: ', nodeVersion.runtime)
   const prodDependencies = await npmBuild(
     config,
     entrypointDir,
