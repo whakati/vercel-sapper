@@ -20,7 +20,7 @@
     "@vercel/node-bridge": "^1.3.3",
     "fs-extra": "^8.1.0"
   },
-  "repository": "https://github.com/thgh/vercel-sapper",
+  "repository": "https://github.com/whakati/vercel-sapper",
   "keywords": [
     "svelte",
     "sapper",
@@ -29,9 +29,9 @@
   ],
   "author": "Thomas Ghysels",
   "bugs": {
-    "url": "https://github.com/thgh/vercel-sapper/issues"
+    "url": "https://github.com/whakati/vercel-sapper/issues"
   },
-  "homepage": "https://github.com/thgh/vercel-sapper#readme",
+  "homepage": "https://github.com/whakati/vercel-sapper#readme",
   "prettier": {
     "trailingComma": "none",
     "semi": false,
